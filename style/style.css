@@ -1,0 +1,79 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  width: 80%;
+  margin: 0px auto 50px auto;
+  background: #1f3f7a;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.playboard {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (80px)[7];
+      grid-template-columns: repeat(7, 80px);
+  -ms-grid-rows: (80px)[6];
+      grid-template-rows: repeat(6, 80px);
+  gap: 1rem;
+}
+
+.cell {
+  height: 80px;
+  background-color: #406ab9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.prepare {
+  background-color: #1f3f7a;
+  border: none;
+  cursor: unset;
+}
+
+.yellow {
+  background-color: #FFDA17;
+  border: 4px solid #cea801;
+}
+
+.red {
+  background-color: #FF0000;
+  border: 4px solid #8b2311;
+}
+/*# sourceMappingURL=style.css.map */
